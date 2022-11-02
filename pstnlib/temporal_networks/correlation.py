@@ -1,9 +1,7 @@
-from typing import Dict
 from pstnlib.temporal_networks.constraint import Constraint
 from pstnlib.optimisation.probabilities import rectangular_probability, rectangular_gradient
 import numpy as np
 from scipy import stats
-from math import sqrt
 
 class Correlation:
     """
