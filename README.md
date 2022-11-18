@@ -29,7 +29,6 @@ Current modules include:
 	- Probabilities - A number of functions for evaluating probabilities in multivariate normal distributions.
 	- Column Generation - A class to find optimal schedules to correlated temporal networks using column generation, Reference pending.
 	- Solution - A class to model the result of an optimisation problem.
-	- SREA (WIP) - An implementation of the static robust execution algorithm from: Lund, K., Dietrich, S., Chow, S. and Boerkoel, J., 2017, February. Robust execution of probabilistic temporal plans. In _Proceedings of the AAAI Conference on Artificial Intelligence_ (Vol. 31, No. 1).
 
 Use the [examples](examples) directory to see more. 
 
