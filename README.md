@@ -1,14 +1,12 @@
-# Probabilistic Simple Temporal Network Library (PSTNLIB)
+# Corr-STN (Correlated Simple Temporal Networks)
 
   
 
-This library consists of Python modules that can be used to schedule Probabilistic Temporal Networks.
+This library consists of Python modules that can be used to schedule Probabilistic Temporal Networks and Correlated Temporal Networks.
 
 Probabilistic Temporal Networks are graphs that can be used to reason over actions containing uncertain durations.
 
 In a PSTN, the nodes represent time points that can be scheduled while the edges represent constraints between the timepoints.
-
-  
 
 Current modules include:
 
@@ -30,7 +28,7 @@ Current modules include:
 	- Column Generation - A class to find optimal schedules to correlated temporal networks using column generation, Reference pending.
 	- Solution - A class to model the result of an optimisation problem.
 
-Use the [examples](examples) directory to see more. 
+See example_toy.py and example_from_json.py for details.
 
 ### Requirements
 
