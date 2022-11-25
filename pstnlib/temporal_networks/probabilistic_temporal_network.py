@@ -307,7 +307,7 @@ class ProbabilisticTemporalNetwork(TemporalNetwork):
         else:
             raise ValueError("Input parameter schedules must be either a list of dictionaries or a single dictionary.")
 
-    def monte_carlo(self, schedules, no_simulations: int = 10000) -> float:
+    def monte_carlo(self, schedules, no_simulations: int = 25000) -> float:
         '''
         Description:    Simulates execution of schedules a set amount of times and return probability
                         of successful execution (i.e. all constraints satisfied)
