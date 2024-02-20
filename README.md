@@ -1,7 +1,5 @@
 # Corr-STN (Correlated Simple Temporal Networks)
 
-  
-
 This library consists of Python modules that can be used to schedule Probabilistic Temporal Networks and Correlated Temporal Networks.
 
 Probabilistic Temporal Networks are graphs that can be used to reason over actions containing uncertain durations.
@@ -25,7 +23,7 @@ Current modules include:
 - Optimisation
 	- Paris - An implementation of the PARIS algorithm from: Santana, P., Vaquero, T., Toledo, C., Wang, A., Fang, C. and Williams, B., 2016, March. Paris: A polynomial-time, risk-sensitive scheduling algorithm for probabilistic simple temporal networks with uncertainty. In _Proceedings of the International Conference on Automated Planning and Scheduling_ (Vol. 26, pp. 267-275).
 	- Probabilities - A number of functions for evaluating probabilities in multivariate normal distributions.
-	- Column Generation - A class to find optimal schedules to correlated temporal networks using column generation, Reference pending.
+	- Column Generation - A class to find optimal schedules to correlated temporal networks using column generation from: Murray, A., Arulselvan, A., Cashmore, M., Roper, M. and Frank, J., 2023, July. A column generation approach to correlated simple temporal networks. In Proceedings of the International Conference on Automated Planning and Scheduling (Vol. 33, No. 1, pp. 295-303).
 	- Solution - A class to model the result of an optimisation problem.
 
 See example_toy.py and example_from_json.py for details.
