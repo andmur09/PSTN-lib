@@ -13,6 +13,23 @@ from otpl.plans.temporal_plan import PlanTemporalNetwork, Happening, HappeningTy
 inf = 1000000000
 
 def generate_problem(no_drones, no_locations, no_depots, no_medicines, file):
+    """
+    Generates a random PDDL problem file for drone delivery domain.
+    --------------------------
+    Params:
+            no_drones:      int
+                                Number of drones to be used in the problem.
+            no_locations:   int
+                                Number of locations to be used in the problem.
+            no_depots:      int
+                                Number of depots to be used in the problem. This must be smaller than no_locations.
+            no_medicines:   int
+                                Number of medicines to be delivered.
+            file:           str
+                                Name of file to save problem to.
+    Returns:
+            None
+    """
     drones = []
     locations = []
     medicines = []
@@ -148,7 +165,16 @@ def generate_problem(no_drones, no_locations, no_depots, no_medicines, file):
 
 def generate_random_uncertainties(domain_file: str, problem_file: str) -> dict:
     """
-    randomly generates a dictionary of uncertainties for action and til durations.
+    Randomly generates a dictionary of uncertainties for action and til durations for a given planning problem.
+    ----------------------
+    Params:
+            domain_file:    str
+                Name of PDDL domain file.
+            problem_file:   str
+                Name of PDDL problem file.
+    ----------------------
+    Returns:
+            dict
     """
     # Parses domain and problem file
     pddl_parser = Parser()
@@ -175,7 +201,15 @@ def generate_random_uncertainties(domain_file: str, problem_file: str) -> dict:
 
 def save_random_uncertainties(domain_file: str, problem_file: str, output_file: str) -> None:
     """
-    wrapper for generate_random_uncertainties to save as json
+    wrapper for generate_random_uncertainties to save as json.
+    ----------------------
+    Params:
+            domain_file:    str
+                                Name of PDDL domain file.
+            problem_file:   str
+                                Name of PDDL problem file.
+            output_file:    str
+                                Name of JSON file to save uncertainties to.
     """
     if output_file[-5:] != ".json":
             output_file = output_file + ".json"
@@ -186,6 +220,17 @@ def save_random_uncertainties(domain_file: str, problem_file: str, output_file: 
 def sample_probabilistic_constraints(network: ProbabilisticTemporalNetwork, n_correlations: int, size: int) -> list[Constraint]:
     """
     Randomly generates "n_correlations" samples of the probabilistic constraints in the network. Size is the number of constraints in each sample.
+    ----------------------
+    Params:
+            network:        pstnlib.temporal_networks.probabilistic_temporal_networks.ProbabilisticTemporalNetwork.
+                                PSTN instance
+            n_correlation:  int
+                                Number of correlations to sample.
+            size:           int
+                                Size of correlations.
+    -----------------------
+    Returns:
+            list[list]
     """
     if len(network.get_probabilistic_constraints()) < n_correlations * size:
         raise ValueError("Insuffucient probabilistic constraints for required size.")
@@ -196,7 +241,18 @@ def sample_probabilistic_constraints(network: ProbabilisticTemporalNetwork, n_co
 
 def generate_random_constraints(network: TemporalNetwork, deadline: float, number: int) -> list[Constraint]:
     """
-    Randomly generates a set of constraints of size n to add to the temporal network. 
+    Randomly generates a set of constraints of size n to add to the temporal network.
+    ----------------------
+    Params:
+            network:        pstnlib.temporal_networks.probabilistic_temporal_networks.ProbabilisticTemporalNetwork.
+                                PSTN instance
+            deadline:       float
+                                TIL deadline for the plan.
+            size:           int
+                                Number of constraints.
+    -----------------------
+    Returns:
+            pstnlib.temporal_networks.probabilistic_temporal_networks.ProbabilisticTemporalNetwork
     """
     cs = [c for c in network.constraints if "Ordering" in c.label or "Interference" in c.label]
     sample = random.sample(cs, number)
@@ -212,7 +268,22 @@ def generate_random_constraints(network: TemporalNetwork, deadline: float, numbe
 
 def generate_random_cstn(domain_f: str, problem_f: str, plan_f: str, corr_size = 2, tightness_factor = 1.0):
     """
-    Generates a random simple temporal network in all pairs shortest path form from a given pddl domain, problem and plan.
+    Generates a random Corr-STN.
+    ----------------------------
+    Params:
+            domain_f:           str
+                                    Name of PDDL domain file.
+            problem_f:          str
+                                    Name of PDDL problem file.
+            plan_f:             str
+                                    Name of PDDL plan file.
+            corr_size:          int
+                                    Size of correlations.
+            tightness_factor:   float
+                                    Factor to tighten Corr-STN for varying robustness.
+    Returns:
+            pstnlib.temporal_networks.correlated_temporal_networks.CorrelatedTemporalNetwork.
+
     """
     instance = plan_f.split("/")[-1]
     instance = instance.split(".")[0]
@@ -228,7 +299,7 @@ def generate_random_cstn(domain_f: str, problem_f: str, plan_f: str, corr_size =
     plan.read_from_file(plan_f)
     plan.temporal_network.make_minimal()
 
-    # Gets list of medicines to be delivered and the locations they should be delivered.
+    # Gets list of medicines to be delivered and the locations they should be delivered to.
     medicines = [k for k in pddl_parser.problem.objects_type_map if pddl_parser.problem.objects_type_map[k] == "medicine"]
     locations = {}
     for medicine in medicines:

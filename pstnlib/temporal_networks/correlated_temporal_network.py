@@ -8,7 +8,11 @@ from pstnlib.temporal_networks.numpy_encoder import NpEncoder
 np.set_printoptions(linewidth=160)
 class CorrelatedTemporalNetwork(ProbabilisticTemporalNetwork):
     """
-    represents a correlated probabilistic temporal network.
+    Represents a correlated probabilistic temporal network.
+    --------------------
+    Params:
+        correlations:   list[pstnlib.temporal_networks.correlation.Correlation]
+            list of correlations in the Corr-STN.
     """
     def __init__(self) -> None:
         super().__init__()
