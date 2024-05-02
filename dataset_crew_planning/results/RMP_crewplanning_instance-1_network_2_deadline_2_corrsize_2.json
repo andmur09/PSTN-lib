@@ -1,0 +1,1165 @@
+{
+    "runtime": 0.11568784713745117, 
+    "schedule": {
+        "0": 0.0, 
+        "1": 0.001, 
+        "2": 60.001, 
+        "3": 0.001, 
+        "4": 195.001, 
+        "5": 0.001, 
+        "6": 1440.001, 
+        "7": 195.002, 
+        "8": 255.002, 
+        "9": 255.00300000000001, 
+        "10": 435.00300000000004, 
+        "11": 435.004, 
+        "12": 495.004, 
+        "13": 495.005, 
+        "14": 555.005, 
+        "15": 1844.9959999999992, 
+        "16": 1845.9959999999992, 
+        "17": 555.006, 
+        "19": 639.5377568433989, 
+        "21": 724.0695136867979, 
+        "23": 1064.9929999999993, 
+        "24": 1124.9929999999993, 
+        "25": 1124.9939999999992, 
+        "26": 1184.9939999999992, 
+        "27": 1184.9949999999992, 
+        "28": 1244.9949999999992, 
+        "29": 1244.9959999999992, 
+        "30": 1844.9959999999992, 
+        "31": 1440.002, 
+        "32": 2880.002, 
+        "33": 1844.9969999999992, 
+        "34": 2039.9969999999992, 
+        "35": 2879.002, 
+        "36": 2880.002, 
+        "37": 2879.002, 
+        "38": 2880.002, 
+        "39": 2879.002, 
+        "40": 2880.002, 
+        "41": 2039.9979999999991, 
+        "42": 2099.997999999999, 
+        "43": 2099.9989999999993, 
+        "44": 2159.9989999999993, 
+        "45": 2159.9999999999995, 
+        "46": 2219.9999999999995, 
+        "47": 2220.0009999999997, 
+        "48": 2280.0009999999997, 
+        "49": 2280.002, 
+        "50": 2880.002
+    }, 
+    "probability": 0.9946521347370958, 
+    "network": {
+        "name": "crewplanning_instance-1_network_2_deadline_2_corrsize_2", 
+        "timepoints": [
+            {
+                "id": 0, 
+                "label": "PLAN_START"
+            }, 
+            {
+                "id": 1, 
+                "label": "(remove_sleep_station rpcm1 c1)_start"
+            }, 
+            {
+                "id": 2, 
+                "label": "(remove_sleep_station rpcm1 c1)_end"
+            }, 
+            {
+                "id": 3, 
+                "label": "(post_sleep c1 d0 d1)_start"
+            }, 
+            {
+                "id": 4, 
+                "label": "(post_sleep c1 d0 d1)_end"
+            }, 
+            {
+                "id": 5, 
+                "label": "(initialize_day d1 d2)_start"
+            }, 
+            {
+                "id": 6, 
+                "label": "(initialize_day d1 d2)_end"
+            }, 
+            {
+                "id": 7, 
+                "label": "(first_reconfigurate_thermal_loops rpcm1 c1)_start"
+            }, 
+            {
+                "id": 8, 
+                "label": "(first_reconfigurate_thermal_loops rpcm1 c1)_end"
+            }, 
+            {
+                "id": 9, 
+                "label": "(replace_rpcm rpcm1 c1)_start"
+            }, 
+            {
+                "id": 10, 
+                "label": "(replace_rpcm rpcm1 c1)_end"
+            }, 
+            {
+                "id": 11, 
+                "label": "(second_reconfigurate_thermal_loops rpcm1 c1)_start"
+            }, 
+            {
+                "id": 12, 
+                "label": "(second_reconfigurate_thermal_loops rpcm1 c1)_end"
+            }, 
+            {
+                "id": 13, 
+                "label": "(assemble_sleep_station rpcm1 c1)_start"
+            }, 
+            {
+                "id": 14, 
+                "label": "(assemble_sleep_station rpcm1 c1)_end"
+            }, 
+            {
+                "id": 15, 
+                "label": "(finish_rpcm rpcm1 c1 d1)_start"
+            }, 
+            {
+                "id": 16, 
+                "label": "(finish_rpcm rpcm1 c1 d1)_end"
+            }, 
+            {
+                "id": 17, 
+                "label": "(conduct_payload_activity pa2_3 c1)_start"
+            }, 
+            {
+                "id": 18, 
+                "label": "(conduct_payload_activity pa2_3 c1)_end"
+            }, 
+            {
+                "id": 19, 
+                "label": "(conduct_payload_activity pa2_2 c1)_start"
+            }, 
+            {
+                "id": 20, 
+                "label": "(conduct_payload_activity pa2_2 c1)_end"
+            }, 
+            {
+                "id": 21, 
+                "label": "(conduct_payload_activity pa2_1 c1)_start"
+            }, 
+            {
+                "id": 22, 
+                "label": "(conduct_payload_activity pa2_1 c1)_end"
+            }, 
+            {
+                "id": 23, 
+                "label": "(change_filter spaceshipfilter c1 d1)_start"
+            }, 
+            {
+                "id": 24, 
+                "label": "(change_filter spaceshipfilter c1 d1)_end"
+            }, 
+            {
+                "id": 25, 
+                "label": "(exercise c1 d1 e1)_start"
+            }, 
+            {
+                "id": 26, 
+                "label": "(exercise c1 d1 e1)_end"
+            }, 
+            {
+                "id": 27, 
+                "label": "(have_meal c1 d1)_start"
+            }, 
+            {
+                "id": 28, 
+                "label": "(have_meal c1 d1)_end"
+            }, 
+            {
+                "id": 29, 
+                "label": "(sleep c1 d1)_start"
+            }, 
+            {
+                "id": 30, 
+                "label": "(sleep c1 d1)_end"
+            }, 
+            {
+                "id": 31, 
+                "label": "(initialize_day d2 d3)_start"
+            }, 
+            {
+                "id": 32, 
+                "label": "(initialize_day d2 d3)_end"
+            }, 
+            {
+                "id": 33, 
+                "label": "(post_sleep c1 d1 d2)_start"
+            }, 
+            {
+                "id": 34, 
+                "label": "(post_sleep c1 d1 d2)_end"
+            }, 
+            {
+                "id": 35, 
+                "label": "(report_payload_activity_at_deadline pa2_3 c1 d2)_start"
+            }, 
+            {
+                "id": 36, 
+                "label": "(report_payload_activity_at_deadline pa2_3 c1 d2)_end"
+            }, 
+            {
+                "id": 37, 
+                "label": "(report_payload_activity_at_deadline pa2_2 c1 d2)_start"
+            }, 
+            {
+                "id": 38, 
+                "label": "(report_payload_activity_at_deadline pa2_2 c1 d2)_end"
+            }, 
+            {
+                "id": 39, 
+                "label": "(report_payload_activity_at_deadline pa2_1 c1 d2)_start"
+            }, 
+            {
+                "id": 40, 
+                "label": "(report_payload_activity_at_deadline pa2_1 c1 d2)_end"
+            }, 
+            {
+                "id": 41, 
+                "label": "(medical_conference mcs1 c1 d2)_start"
+            }, 
+            {
+                "id": 42, 
+                "label": "(medical_conference mcs1 c1 d2)_end"
+            }, 
+            {
+                "id": 43, 
+                "label": "(change_filter spaceshipfilter c1 d2)_start"
+            }, 
+            {
+                "id": 44, 
+                "label": "(change_filter spaceshipfilter c1 d2)_end"
+            }, 
+            {
+                "id": 45, 
+                "label": "(exercise c1 d2 e1)_start"
+            }, 
+            {
+                "id": 46, 
+                "label": "(exercise c1 d2 e1)_end"
+            }, 
+            {
+                "id": 47, 
+                "label": "(have_meal c1 d2)_start"
+            }, 
+            {
+                "id": 48, 
+                "label": "(have_meal c1 d2)_end"
+            }, 
+            {
+                "id": 49, 
+                "label": "(sleep c1 d2)_start"
+            }, 
+            {
+                "id": 50, 
+                "label": "(sleep c1 d2)_end"
+            }
+        ], 
+        "constraints": [
+            {
+                "source": 0, 
+                "sink": 18, 
+                "label": "deadline_pa2_3", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 808.5088000000001
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 20, 
+                "label": "deadline_pa2_2", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 808.5088000000001
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 22, 
+                "label": "deadline_pa2_1", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 808.5088000000001
+                }
+            }, 
+            {
+                "source": 1, 
+                "sink": 2, 
+                "label": "(remove_sleep_station rpcm1 c1)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 60.0, 
+                    "ub": 60.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 1, 
+                "label": "Ordering Constraint between 0 and 1", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 3, 
+                "sink": 4, 
+                "label": "(post_sleep c1 d0 d1)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 195.0, 
+                    "ub": 195.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 3, 
+                "label": "Ordering Constraint between 0 and 3", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 1, 
+                "sink": 4, 
+                "label": "Interference Constraint between 1 and 4", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 5, 
+                "sink": 6, 
+                "label": "(initialize_day d1 d2)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 1440.0, 
+                    "ub": 1440.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 5, 
+                "label": "Ordering Constraint between 0 and 5", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 7, 
+                "sink": 8, 
+                "label": "(first_reconfigurate_thermal_loops rpcm1 c1)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 60.0, 
+                    "ub": 60.0
+                }
+            }, 
+            {
+                "source": 4, 
+                "sink": 7, 
+                "label": "Ordering Constraint between 4 and 7", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 9, 
+                "sink": 10, 
+                "label": "(replace_rpcm rpcm1 c1)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 180.0, 
+                    "ub": 180.0
+                }
+            }, 
+            {
+                "source": 8, 
+                "sink": 9, 
+                "label": "Ordering Constraint between 8 and 9", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 2, 
+                "sink": 9, 
+                "label": "Ordering Constraint between 2 and 9", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 11, 
+                "sink": 12, 
+                "label": "(second_reconfigurate_thermal_loops rpcm1 c1)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 60.0, 
+                    "ub": 60.0
+                }
+            }, 
+            {
+                "source": 1, 
+                "sink": 11, 
+                "label": "Interference Constraint between 1 and 11", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 7, 
+                "sink": 11, 
+                "label": "Interference Constraint between 7 and 11", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 10, 
+                "sink": 11, 
+                "label": "Ordering Constraint between 10 and 11", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 13, 
+                "sink": 14, 
+                "label": "(assemble_sleep_station rpcm1 c1)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 60.0, 
+                    "ub": 60.0
+                }
+            }, 
+            {
+                "source": 12, 
+                "sink": 13, 
+                "label": "Ordering Constraint between 12 and 13", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 15, 
+                "sink": 16, 
+                "label": "(finish_rpcm rpcm1 c1 d1)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 1.0, 
+                    "ub": 1.0
+                }
+            }, 
+            {
+                "source": 14, 
+                "sink": 15, 
+                "label": "Ordering Constraint between 14 and 15", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 12, 
+                "sink": 15, 
+                "label": "Ordering Constraint between 12 and 15", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 4, 
+                "sink": 15, 
+                "label": "Ordering Constraint between 4 and 15", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 17, 
+                "sink": 18, 
+                "label": "(conduct_payload_activity pa2_3 c1)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 60.0, 
+                    "sd": 8.548787120734499
+                }
+            }, 
+            {
+                "source": 9, 
+                "sink": 17, 
+                "label": "Interference Constraint between 9 and 17", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 11, 
+                "sink": 17, 
+                "label": "Interference Constraint between 11 and 17", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 14, 
+                "sink": 17, 
+                "label": "Ordering Constraint between 14 and 17", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 19, 
+                "sink": 20, 
+                "label": "(conduct_payload_activity pa2_2 c1)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 60.0, 
+                    "sd": 8.548787120734499
+                }
+            }, 
+            {
+                "source": 13, 
+                "sink": 19, 
+                "label": "Interference Constraint between 13 and 19", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 18, 
+                "sink": 19, 
+                "label": "Ordering Constraint between 18 and 19", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 21, 
+                "sink": 22, 
+                "label": "(conduct_payload_activity pa2_1 c1)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 60.0, 
+                    "sd": 8.548787120734499
+                }
+            }, 
+            {
+                "source": 17, 
+                "sink": 21, 
+                "label": "Interference Constraint between 17 and 21", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 20, 
+                "sink": 21, 
+                "label": "Ordering Constraint between 20 and 21", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 23, 
+                "sink": 24, 
+                "label": "(change_filter spaceshipfilter c1 d1)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 60.0, 
+                    "ub": 60.0
+                }
+            }, 
+            {
+                "source": 19, 
+                "sink": 23, 
+                "label": "Interference Constraint between 19 and 23", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 22, 
+                "sink": 23, 
+                "label": "Ordering Constraint between 22 and 23", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 25, 
+                "sink": 26, 
+                "label": "(exercise c1 d1 e1)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 60.0, 
+                    "ub": 60.0
+                }
+            }, 
+            {
+                "source": 21, 
+                "sink": 25, 
+                "label": "Interference Constraint between 21 and 25", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 24, 
+                "sink": 25, 
+                "label": "Ordering Constraint between 24 and 25", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 27, 
+                "sink": 28, 
+                "label": "(have_meal c1 d1)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 60.0, 
+                    "ub": 60.0
+                }
+            }, 
+            {
+                "source": 23, 
+                "sink": 27, 
+                "label": "Interference Constraint between 23 and 27", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 26, 
+                "sink": 27, 
+                "label": "Ordering Constraint between 26 and 27", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 29, 
+                "sink": 30, 
+                "label": "(sleep c1 d1)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 600.0, 
+                    "ub": 600.0
+                }
+            }, 
+            {
+                "source": 28, 
+                "sink": 29, 
+                "label": "Ordering Constraint between 28 and 29", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 31, 
+                "sink": 32, 
+                "label": "(initialize_day d2 d3)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 1440.0, 
+                    "ub": 1440.0
+                }
+            }, 
+            {
+                "source": 6, 
+                "sink": 31, 
+                "label": "Ordering Constraint between 6 and 31", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 31, 
+                "label": "Ordering Constraint between 0 and 31", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 33, 
+                "sink": 34, 
+                "label": "(post_sleep c1 d1 d2)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 195.0, 
+                    "ub": 195.0
+                }
+            }, 
+            {
+                "source": 15, 
+                "sink": 33, 
+                "label": "Interference Constraint between 15 and 33", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 25, 
+                "sink": 33, 
+                "label": "Interference Constraint between 25 and 33", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 27, 
+                "sink": 33, 
+                "label": "Interference Constraint between 27 and 33", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 30, 
+                "sink": 33, 
+                "label": "Ordering Constraint between 30 and 33", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 6, 
+                "sink": 33, 
+                "label": "Ordering Constraint between 6 and 33", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 33, 
+                "label": "Ordering Constraint between 0 and 33", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 35, 
+                "sink": 36, 
+                "label": "(report_payload_activity_at_deadline pa2_3 c1 d2)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 1.0, 
+                    "ub": 1.0
+                }
+            }, 
+            {
+                "source": 34, 
+                "sink": 35, 
+                "label": "Ordering Constraint between 34 and 35", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 18, 
+                "sink": 35, 
+                "label": "Ordering Constraint between 18 and 35", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 37, 
+                "sink": 38, 
+                "label": "(report_payload_activity_at_deadline pa2_2 c1 d2)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 1.0, 
+                    "ub": 1.0
+                }
+            }, 
+            {
+                "source": 34, 
+                "sink": 37, 
+                "label": "Ordering Constraint between 34 and 37", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 20, 
+                "sink": 37, 
+                "label": "Ordering Constraint between 20 and 37", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 39, 
+                "sink": 40, 
+                "label": "(report_payload_activity_at_deadline pa2_1 c1 d2)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 1.0, 
+                    "ub": 1.0
+                }
+            }, 
+            {
+                "source": 34, 
+                "sink": 39, 
+                "label": "Ordering Constraint between 34 and 39", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 22, 
+                "sink": 39, 
+                "label": "Ordering Constraint between 22 and 39", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 41, 
+                "sink": 42, 
+                "label": "(medical_conference mcs1 c1 d2)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 60.0, 
+                    "ub": 60.0
+                }
+            }, 
+            {
+                "source": 25, 
+                "sink": 41, 
+                "label": "Interference Constraint between 25 and 41", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 27, 
+                "sink": 41, 
+                "label": "Interference Constraint between 27 and 41", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 29, 
+                "sink": 41, 
+                "label": "Interference Constraint between 29 and 41", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 34, 
+                "sink": 41, 
+                "label": "Ordering Constraint between 34 and 41", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 43, 
+                "sink": 44, 
+                "label": "(change_filter spaceshipfilter c1 d2)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 60.0, 
+                    "ub": 60.0
+                }
+            }, 
+            {
+                "source": 42, 
+                "sink": 43, 
+                "label": "Ordering Constraint between 42 and 43", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 45, 
+                "sink": 46, 
+                "label": "(exercise c1 d2 e1)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 60.0, 
+                    "ub": 60.0
+                }
+            }, 
+            {
+                "source": 41, 
+                "sink": 45, 
+                "label": "Interference Constraint between 41 and 45", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 44, 
+                "sink": 45, 
+                "label": "Ordering Constraint between 44 and 45", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 47, 
+                "sink": 48, 
+                "label": "(have_meal c1 d2)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 60.0, 
+                    "ub": 60.0
+                }
+            }, 
+            {
+                "source": 43, 
+                "sink": 47, 
+                "label": "Interference Constraint between 43 and 47", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 46, 
+                "sink": 47, 
+                "label": "Ordering Constraint between 46 and 47", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 49, 
+                "sink": 50, 
+                "label": "(sleep c1 d2)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 600.0, 
+                    "ub": 600.0
+                }
+            }, 
+            {
+                "source": 48, 
+                "sink": 49, 
+                "label": "Ordering Constraint between 48 and 49", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 16, 
+                "label": "Deadline for Timepoint 16", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0, 
+                    "ub": 2880.002
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 32, 
+                "label": "Deadline for Timepoint 32", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0, 
+                    "ub": 2880.002
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 36, 
+                "label": "Deadline for Timepoint 36", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0, 
+                    "ub": 2880.002
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 38, 
+                "label": "Deadline for Timepoint 38", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0, 
+                    "ub": 2880.002
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 40, 
+                "label": "Deadline for Timepoint 40", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0, 
+                    "ub": 2880.002
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 50, 
+                "label": "Deadline for Timepoint 50", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0, 
+                    "ub": 2880.002
+                }
+            }
+        ], 
+        "correlations": [
+            {
+                "constraints": [
+                    {
+                        "source": 17, 
+                        "sink": 18, 
+                        "label": "(conduct_payload_activity pa2_3 c1)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 60.0, 
+                            "sd": 8.548787120734499
+                        }
+                    }, 
+                    {
+                        "source": 19, 
+                        "sink": 20, 
+                        "label": "(conduct_payload_activity pa2_2 c1)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 60.0, 
+                            "sd": 8.548787120734499
+                        }
+                    }
+                ], 
+                "mean": [
+                    60.0, 
+                    60.0
+                ], 
+                "correlation": [
+                    [
+                        1.0, 
+                        0.9
+                    ], 
+                    [
+                        0.9, 
+                        1.0
+                    ]
+                ]
+            }
+        ]
+    }
+}
