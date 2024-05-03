@@ -1,0 +1,2305 @@
+{
+    "runtime": 0.6376199722290039, 
+    "schedule": {
+        "0": 0.0, 
+        "1": 0.001, 
+        "2": 5.001, 
+        "3": 0.001, 
+        "5": 0.001, 
+        "7": 0.001, 
+        "9": 6.173938516676717, 
+        "11": 28.66848218268742, 
+        "13": 5.001, 
+        "15": 17.13839556996028, 
+        "16": 18.13839556996028, 
+        "17": 11.326920524891282, 
+        "19": 15.59429947947056, 
+        "21": 31.86538609720012, 
+        "23": 17.652841049782563, 
+        "25": 50.53964529226242, 
+        "27": 34.9944027075787, 
+        "29": 50.54064529226242, 
+        "31": 49.54064529226242, 
+        "32": 50.54064529226242, 
+        "33": 56.8665658171537, 
+        "35": 56.8665658171537, 
+        "36": 60.5165658171537, 
+        "37": 49.0027816671604, 
+        "39": 56.8675658171537, 
+        "41": 55.8675658171537, 
+        "42": 56.8675658171537, 
+        "43": 63.19348634204498, 
+        "45": 75.29647775199417, 
+        "47": 89.75012104041829, 
+        "49": 92.11068553255785, 
+        "51": 103.7585, 
+        "53": 103.7595, 
+        "55": 91.11168553255786, 
+        "56": 92.11168553255786, 
+        "57": 110.08542052489128, 
+        "59": 115.40731446744215, 
+        "61": 121.73323499233342, 
+        "63": 134.5426843957819, 
+        "65": 140.86860492067316, 
+        "67": 109.08642052489128, 
+        "68": 110.08642052489128, 
+        "69": 161.8099861291094, 
+        "71": 147.19452544556444, 
+        "72": 150.94452544556444, 
+        "73": 173.45780059655155
+    }, 
+    "probability": 0.8547232222855897, 
+    "network": {
+        "name": "rovers_instance-11_network_2_deadline_2_corrsize_2", 
+        "timepoints": [
+            {
+                "id": 0, 
+                "label": "PLAN_START"
+            }, 
+            {
+                "id": 1, 
+                "label": "(calibrate rover2 camera1 objective0 waypoint3)_start"
+            }, 
+            {
+                "id": 2, 
+                "label": "(calibrate rover2 camera1 objective0 waypoint3)_end"
+            }, 
+            {
+                "id": 3, 
+                "label": "(sample_soil rover0 rover0store waypoint1)_start"
+            }, 
+            {
+                "id": 4, 
+                "label": "(sample_soil rover0 rover0store waypoint1)_end"
+            }, 
+            {
+                "id": 5, 
+                "label": "(sample_soil rover1 rover1store waypoint3)_start"
+            }, 
+            {
+                "id": 6, 
+                "label": "(sample_soil rover1 rover1store waypoint3)_end"
+            }, 
+            {
+                "id": 7, 
+                "label": "(navigate rover2 waypoint3 waypoint0)_start"
+            }, 
+            {
+                "id": 8, 
+                "label": "(navigate rover2 waypoint3 waypoint0)_end"
+            }, 
+            {
+                "id": 9, 
+                "label": "(take_image rover2 waypoint0 objective1 camera1 high_res)_start"
+            }, 
+            {
+                "id": 10, 
+                "label": "(take_image rover2 waypoint0 objective1 camera1 high_res)_end"
+            }, 
+            {
+                "id": 11, 
+                "label": "(navigate rover0 waypoint1 waypoint0)_start"
+            }, 
+            {
+                "id": 12, 
+                "label": "(navigate rover0 waypoint1 waypoint0)_end"
+            }, 
+            {
+                "id": 13, 
+                "label": "(navigate rover1 waypoint3 waypoint0)_start"
+            }, 
+            {
+                "id": 14, 
+                "label": "(navigate rover1 waypoint3 waypoint0)_end"
+            }, 
+            {
+                "id": 15, 
+                "label": "(drop rover1 rover1store)_start"
+            }, 
+            {
+                "id": 16, 
+                "label": "(drop rover1 rover1store)_end"
+            }, 
+            {
+                "id": 17, 
+                "label": "(navigate rover1 waypoint0 waypoint6)_start"
+            }, 
+            {
+                "id": 18, 
+                "label": "(navigate rover1 waypoint0 waypoint6)_end"
+            }, 
+            {
+                "id": 19, 
+                "label": "(communicate_image_data rover2 general objective1 high_res waypoint0 waypoint1)_start"
+            }, 
+            {
+                "id": 20, 
+                "label": "(communicate_image_data rover2 general objective1 high_res waypoint0 waypoint1)_end"
+            }, 
+            {
+                "id": 21, 
+                "label": "(sample_soil rover2 rover2store waypoint0)_start"
+            }, 
+            {
+                "id": 22, 
+                "label": "(sample_soil rover2 rover2store waypoint0)_end"
+            }, 
+            {
+                "id": 23, 
+                "label": "(navigate rover1 waypoint6 waypoint4)_start"
+            }, 
+            {
+                "id": 24, 
+                "label": "(navigate rover1 waypoint6 waypoint4)_end"
+            }, 
+            {
+                "id": 25, 
+                "label": "(sample_rock rover1 rover1store waypoint4)_start"
+            }, 
+            {
+                "id": 26, 
+                "label": "(sample_rock rover1 rover1store waypoint4)_end"
+            }, 
+            {
+                "id": 27, 
+                "label": "(communicate_soil_data rover0 general waypoint1 waypoint0 waypoint1)_start"
+            }, 
+            {
+                "id": 28, 
+                "label": "(communicate_soil_data rover0 general waypoint1 waypoint0 waypoint1)_end"
+            }, 
+            {
+                "id": 29, 
+                "label": "(navigate rover1 waypoint4 waypoint6)_start"
+            }, 
+            {
+                "id": 30, 
+                "label": "(navigate rover1 waypoint4 waypoint6)_end"
+            }, 
+            {
+                "id": 31, 
+                "label": "(drop rover1 rover1store)_start"
+            }, 
+            {
+                "id": 32, 
+                "label": "(drop rover1 rover1store)_end"
+            }, 
+            {
+                "id": 33, 
+                "label": "(sample_soil rover1 rover1store waypoint6)_start"
+            }, 
+            {
+                "id": 34, 
+                "label": "(sample_soil rover1 rover1store waypoint6)_end"
+            }, 
+            {
+                "id": 35, 
+                "label": "(recharge rover1 waypoint6)_start"
+            }, 
+            {
+                "id": 36, 
+                "label": "(recharge rover1 waypoint6)_end"
+            }, 
+            {
+                "id": 37, 
+                "label": "(communicate_soil_data rover2 general waypoint0 waypoint0 waypoint1)_start"
+            }, 
+            {
+                "id": 38, 
+                "label": "(communicate_soil_data rover2 general waypoint0 waypoint0 waypoint1)_end"
+            }, 
+            {
+                "id": 39, 
+                "label": "(navigate rover1 waypoint6 waypoint0)_start"
+            }, 
+            {
+                "id": 40, 
+                "label": "(navigate rover1 waypoint6 waypoint0)_end"
+            }, 
+            {
+                "id": 41, 
+                "label": "(drop rover1 rover1store)_start"
+            }, 
+            {
+                "id": 42, 
+                "label": "(drop rover1 rover1store)_end"
+            }, 
+            {
+                "id": 43, 
+                "label": "(communicate_rock_data rover1 general waypoint4 waypoint0 waypoint1)_start"
+            }, 
+            {
+                "id": 44, 
+                "label": "(communicate_rock_data rover1 general waypoint4 waypoint0 waypoint1)_end"
+            }, 
+            {
+                "id": 45, 
+                "label": "(communicate_soil_data rover1 general waypoint6 waypoint0 waypoint1)_start"
+            }, 
+            {
+                "id": 46, 
+                "label": "(communicate_soil_data rover1 general waypoint6 waypoint0 waypoint1)_end"
+            }, 
+            {
+                "id": 47, 
+                "label": "(communicate_soil_data rover1 general waypoint3 waypoint0 waypoint1)_start"
+            }, 
+            {
+                "id": 48, 
+                "label": "(communicate_soil_data rover1 general waypoint3 waypoint0 waypoint1)_end"
+            }, 
+            {
+                "id": 49, 
+                "label": "(sample_rock rover1 rover1store waypoint0)_start"
+            }, 
+            {
+                "id": 50, 
+                "label": "(sample_rock rover1 rover1store waypoint0)_end"
+            }, 
+            {
+                "id": 51, 
+                "label": "(communicate_rock_data rover1 general waypoint0 waypoint0 waypoint1)_start"
+            }, 
+            {
+                "id": 52, 
+                "label": "(communicate_rock_data rover1 general waypoint0 waypoint0 waypoint1)_end"
+            }, 
+            {
+                "id": 53, 
+                "label": "(navigate rover1 waypoint0 waypoint6)_start"
+            }, 
+            {
+                "id": 54, 
+                "label": "(navigate rover1 waypoint0 waypoint6)_end"
+            }, 
+            {
+                "id": 55, 
+                "label": "(drop rover1 rover1store)_start"
+            }, 
+            {
+                "id": 56, 
+                "label": "(drop rover1 rover1store)_end"
+            }, 
+            {
+                "id": 57, 
+                "label": "(sample_rock rover1 rover1store waypoint6)_start"
+            }, 
+            {
+                "id": 58, 
+                "label": "(sample_rock rover1 rover1store waypoint6)_end"
+            }, 
+            {
+                "id": 59, 
+                "label": "(navigate rover1 waypoint6 waypoint0)_start"
+            }, 
+            {
+                "id": 60, 
+                "label": "(navigate rover1 waypoint6 waypoint0)_end"
+            }, 
+            {
+                "id": 61, 
+                "label": "(communicate_rock_data rover1 general waypoint6 waypoint0 waypoint1)_start"
+            }, 
+            {
+                "id": 62, 
+                "label": "(communicate_rock_data rover1 general waypoint6 waypoint0 waypoint1)_end"
+            }, 
+            {
+                "id": 63, 
+                "label": "(navigate rover1 waypoint0 waypoint3)_start"
+            }, 
+            {
+                "id": 64, 
+                "label": "(navigate rover1 waypoint0 waypoint3)_end"
+            }, 
+            {
+                "id": 65, 
+                "label": "(navigate rover1 waypoint3 waypoint7)_start"
+            }, 
+            {
+                "id": 66, 
+                "label": "(navigate rover1 waypoint3 waypoint7)_end"
+            }, 
+            {
+                "id": 67, 
+                "label": "(drop rover1 rover1store)_start"
+            }, 
+            {
+                "id": 68, 
+                "label": "(drop rover1 rover1store)_end"
+            }, 
+            {
+                "id": 69, 
+                "label": "(sample_rock rover1 rover1store waypoint7)_start"
+            }, 
+            {
+                "id": 70, 
+                "label": "(sample_rock rover1 rover1store waypoint7)_end"
+            }, 
+            {
+                "id": 71, 
+                "label": "(recharge rover1 waypoint7)_start"
+            }, 
+            {
+                "id": 72, 
+                "label": "(recharge rover1 waypoint7)_end"
+            }, 
+            {
+                "id": 73, 
+                "label": "(communicate_rock_data rover1 general waypoint7 waypoint7 waypoint1)_start"
+            }, 
+            {
+                "id": 74, 
+                "label": "(communicate_rock_data rover1 general waypoint7 waypoint7 waypoint1)_end"
+            }
+        ], 
+        "constraints": [
+            {
+                "source": 0, 
+                "sink": 20, 
+                "label": "deadline_rover2_general_objective1_high_res_waypoint0_waypoint1", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 40.001250000000006
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 28, 
+                "label": "deadline_rover0_general_waypoint1_waypoint0_waypoint1", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 52.502500000000005
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 38, 
+                "label": "deadline_rover2_general_waypoint0_waypoint0_waypoint1", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 65.00375
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 44, 
+                "label": "deadline_rover1_general_waypoint4_waypoint0_waypoint1", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 78.755
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 46, 
+                "label": "deadline_rover1_general_waypoint6_waypoint0_waypoint1", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 91.25625
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 48, 
+                "label": "deadline_rover1_general_waypoint3_waypoint0_waypoint1", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 103.7575
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 52, 
+                "label": "deadline_rover1_general_waypoint0_waypoint0_waypoint1", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 116.25875
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 62, 
+                "label": "deadline_rover1_general_waypoint6_waypoint0_waypoint1", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 151.26125
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 74, 
+                "label": "deadline_rover1_general_waypoint7_waypoint7_waypoint1", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 186.26625
+                }
+            }, 
+            {
+                "source": 1, 
+                "sink": 2, 
+                "label": "(calibrate rover2 camera1 objective0 waypoint3)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 5.0, 
+                    "ub": 5.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 1, 
+                "label": "Ordering Constraint between 0 and 1", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 3, 
+                "sink": 4, 
+                "label": "(sample_soil rover0 rover0store waypoint1)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 10.0, 
+                    "sd": 2.1998216392555623
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 3, 
+                "label": "Ordering Constraint between 0 and 3", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 5, 
+                "sink": 6, 
+                "label": "(sample_soil rover1 rover1store waypoint3)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 10.0, 
+                    "sd": 2.1998216392555623
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 5, 
+                "label": "Ordering Constraint between 0 and 5", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 7, 
+                "sink": 8, 
+                "label": "(navigate rover2 waypoint3 waypoint0)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 5.0, 
+                    "sd": 0.40841189538571215
+                }
+            }, 
+            {
+                "source": 3, 
+                "sink": 7, 
+                "label": "Interference Constraint between 3 and 7", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.0, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 7, 
+                "label": "Ordering Constraint between 0 and 7", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 9, 
+                "sink": 10, 
+                "label": "(take_image rover2 waypoint0 objective1 camera1 high_res)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 7.0, 
+                    "sd": 0.9964256323945837
+                }
+            }, 
+            {
+                "source": 8, 
+                "sink": 9, 
+                "label": "Ordering Constraint between 8 and 9", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 2, 
+                "sink": 9, 
+                "label": "Ordering Constraint between 2 and 9", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 9, 
+                "label": "Ordering Constraint between 0 and 9", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 11, 
+                "sink": 12, 
+                "label": "(navigate rover0 waypoint1 waypoint0)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 5.0, 
+                    "sd": 0.40841189538571215
+                }
+            }, 
+            {
+                "source": 5, 
+                "sink": 11, 
+                "label": "Interference Constraint between 5 and 11", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.0, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 11, 
+                "label": "Ordering Constraint between 0 and 11", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 13, 
+                "sink": 14, 
+                "label": "(navigate rover1 waypoint3 waypoint0)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 5.0, 
+                    "sd": 0.40841189538571215
+                }
+            }, 
+            {
+                "source": 2, 
+                "sink": 13, 
+                "label": "Interference Constraint between 2 and 13", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.0, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 13, 
+                "label": "Ordering Constraint between 0 and 13", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 15, 
+                "sink": 16, 
+                "label": "(drop rover1 rover1store)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 1.0, 
+                    "ub": 1.0
+                }
+            }, 
+            {
+                "source": 6, 
+                "sink": 15, 
+                "label": "Ordering Constraint between 6 and 15", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 15, 
+                "label": "Ordering Constraint between 0 and 15", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 17, 
+                "sink": 18, 
+                "label": "(navigate rover1 waypoint0 waypoint6)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 5.0, 
+                    "sd": 0.40841189538571215
+                }
+            }, 
+            {
+                "source": 14, 
+                "sink": 17, 
+                "label": "Ordering Constraint between 14 and 17", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 17, 
+                "label": "Ordering Constraint between 0 and 17", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 19, 
+                "sink": 20, 
+                "label": "(communicate_image_data rover2 general objective1 high_res waypoint0 waypoint1)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 15.0, 
+                    "sd": 2.2144126356739986
+                }
+            }, 
+            {
+                "source": 10, 
+                "sink": 19, 
+                "label": "Ordering Constraint between 10 and 19", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 8, 
+                "sink": 19, 
+                "label": "Ordering Constraint between 8 and 19", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 21, 
+                "sink": 22, 
+                "label": "(sample_soil rover2 rover2store waypoint0)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 10.0, 
+                    "sd": 2.1998216392555623
+                }
+            }, 
+            {
+                "source": 8, 
+                "sink": 21, 
+                "label": "Ordering Constraint between 8 and 21", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 21, 
+                "label": "Ordering Constraint between 0 and 21", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 23, 
+                "sink": 24, 
+                "label": "(navigate rover1 waypoint6 waypoint4)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 5.0, 
+                    "sd": 0.40841189538571215
+                }
+            }, 
+            {
+                "source": 18, 
+                "sink": 23, 
+                "label": "Ordering Constraint between 18 and 23", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 23, 
+                "label": "Ordering Constraint between 0 and 23", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 25, 
+                "sink": 26, 
+                "label": "(sample_rock rover1 rover1store waypoint4)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 8.0, 
+                    "sd": 1.1241447172012844
+                }
+            }, 
+            {
+                "source": 5, 
+                "sink": 25, 
+                "label": "Interference Constraint between 5 and 25", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 24, 
+                "sink": 25, 
+                "label": "Ordering Constraint between 24 and 25", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 16, 
+                "sink": 25, 
+                "label": "Ordering Constraint between 16 and 25", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 27, 
+                "sink": 28, 
+                "label": "(communicate_soil_data rover0 general waypoint1 waypoint0 waypoint1)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 10.0, 
+                    "sd": 2.0172271810607505
+                }
+            }, 
+            {
+                "source": 20, 
+                "sink": 27, 
+                "label": "Ordering Constraint between 20 and 27", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 12, 
+                "sink": 27, 
+                "label": "Ordering Constraint between 12 and 27", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 4, 
+                "sink": 27, 
+                "label": "Ordering Constraint between 4 and 27", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 29, 
+                "sink": 30, 
+                "label": "(navigate rover1 waypoint4 waypoint6)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 5.0, 
+                    "sd": 0.40841189538571215
+                }
+            }, 
+            {
+                "source": 25, 
+                "sink": 29, 
+                "label": "Interference Constraint between 25 and 29", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 29, 
+                "label": "Ordering Constraint between 0 and 29", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 31, 
+                "sink": 32, 
+                "label": "(drop rover1 rover1store)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 1.0, 
+                    "ub": 1.0
+                }
+            }, 
+            {
+                "source": 15, 
+                "sink": 32, 
+                "label": "Interference Constraint between 15 and 32", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 25, 
+                "sink": 32, 
+                "label": "Interference Constraint between 25 and 32", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 33, 
+                "sink": 34, 
+                "label": "(sample_soil rover1 rover1store waypoint6)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 10.0, 
+                    "sd": 2.1998216392555623
+                }
+            }, 
+            {
+                "source": 30, 
+                "sink": 33, 
+                "label": "Ordering Constraint between 30 and 33", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 32, 
+                "sink": 33, 
+                "label": "Ordering Constraint between 32 and 33", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 35, 
+                "sink": 36, 
+                "label": "(recharge rover1 waypoint6)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 3.65, 
+                    "ub": 3.65
+                }
+            }, 
+            {
+                "source": 30, 
+                "sink": 35, 
+                "label": "Ordering Constraint between 30 and 35", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 35, 
+                "label": "Ordering Constraint between 0 and 35", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 37, 
+                "sink": 38, 
+                "label": "(communicate_soil_data rover2 general waypoint0 waypoint0 waypoint1)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 10.0, 
+                    "sd": 2.0172271810607505
+                }
+            }, 
+            {
+                "source": 28, 
+                "sink": 37, 
+                "label": "Ordering Constraint between 28 and 37", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 22, 
+                "sink": 37, 
+                "label": "Ordering Constraint between 22 and 37", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 39, 
+                "sink": 40, 
+                "label": "(navigate rover1 waypoint6 waypoint0)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 5.0, 
+                    "sd": 0.40841189538571215
+                }
+            }, 
+            {
+                "source": 23, 
+                "sink": 39, 
+                "label": "Interference Constraint between 23 and 39", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 33, 
+                "sink": 39, 
+                "label": "Interference Constraint between 33 and 39", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 35, 
+                "sink": 39, 
+                "label": "Interference Constraint between 35 and 39", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 41, 
+                "sink": 42, 
+                "label": "(drop rover1 rover1store)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 1.0, 
+                    "ub": 1.0
+                }
+            }, 
+            {
+                "source": 15, 
+                "sink": 42, 
+                "label": "Interference Constraint between 15 and 42", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 25, 
+                "sink": 42, 
+                "label": "Interference Constraint between 25 and 42", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 33, 
+                "sink": 42, 
+                "label": "Interference Constraint between 33 and 42", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 43, 
+                "sink": 44, 
+                "label": "(communicate_rock_data rover1 general waypoint4 waypoint0 waypoint1)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 10.0, 
+                    "sd": 0.8657154315360794
+                }
+            }, 
+            {
+                "source": 13, 
+                "sink": 43, 
+                "label": "Interference Constraint between 13 and 43", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 17, 
+                "sink": 43, 
+                "label": "Interference Constraint between 17 and 43", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 19, 
+                "sink": 43, 
+                "label": "Interference Constraint between 19 and 43", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 27, 
+                "sink": 43, 
+                "label": "Interference Constraint between 27 and 43", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 29, 
+                "sink": 43, 
+                "label": "Interference Constraint between 29 and 43", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 40, 
+                "sink": 43, 
+                "label": "Ordering Constraint between 40 and 43", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 38, 
+                "sink": 43, 
+                "label": "Ordering Constraint between 38 and 43", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 26, 
+                "sink": 43, 
+                "label": "Ordering Constraint between 26 and 43", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 45, 
+                "sink": 46, 
+                "label": "(communicate_soil_data rover1 general waypoint6 waypoint0 waypoint1)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 10.0, 
+                    "sd": 2.0172271810607505
+                }
+            }, 
+            {
+                "source": 37, 
+                "sink": 45, 
+                "label": "Interference Constraint between 37 and 45", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 44, 
+                "sink": 45, 
+                "label": "Ordering Constraint between 44 and 45", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 34, 
+                "sink": 45, 
+                "label": "Ordering Constraint between 34 and 45", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 47, 
+                "sink": 48, 
+                "label": "(communicate_soil_data rover1 general waypoint3 waypoint0 waypoint1)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 10.0, 
+                    "sd": 2.0172271810607505
+                }
+            }, 
+            {
+                "source": 43, 
+                "sink": 47, 
+                "label": "Interference Constraint between 43 and 47", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 46, 
+                "sink": 47, 
+                "label": "Ordering Constraint between 46 and 47", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 6, 
+                "sink": 47, 
+                "label": "Ordering Constraint between 6 and 47", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 49, 
+                "sink": 50, 
+                "label": "(sample_rock rover1 rover1store waypoint0)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 8.0, 
+                    "sd": 1.1241447172012844
+                }
+            }, 
+            {
+                "source": 40, 
+                "sink": 49, 
+                "label": "Ordering Constraint between 40 and 49", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 42, 
+                "sink": 49, 
+                "label": "Ordering Constraint between 42 and 49", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 51, 
+                "sink": 52, 
+                "label": "(communicate_rock_data rover1 general waypoint0 waypoint0 waypoint1)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 10.0, 
+                    "sd": 0.8657154315360794
+                }
+            }, 
+            {
+                "source": 45, 
+                "sink": 51, 
+                "label": "Interference Constraint between 45 and 51", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 48, 
+                "sink": 51, 
+                "label": "Ordering Constraint between 48 and 51", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 50, 
+                "sink": 51, 
+                "label": "Ordering Constraint between 50 and 51", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 53, 
+                "sink": 54, 
+                "label": "(navigate rover1 waypoint0 waypoint6)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 5.0, 
+                    "sd": 0.40841189538571215
+                }
+            }, 
+            {
+                "source": 47, 
+                "sink": 53, 
+                "label": "Interference Constraint between 47 and 53", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 49, 
+                "sink": 53, 
+                "label": "Interference Constraint between 49 and 53", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 51, 
+                "sink": 53, 
+                "label": "Interference Constraint between 51 and 53", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 55, 
+                "sink": 56, 
+                "label": "(drop rover1 rover1store)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 1.0, 
+                    "ub": 1.0
+                }
+            }, 
+            {
+                "source": 15, 
+                "sink": 56, 
+                "label": "Interference Constraint between 15 and 56", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 25, 
+                "sink": 56, 
+                "label": "Interference Constraint between 25 and 56", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 33, 
+                "sink": 56, 
+                "label": "Interference Constraint between 33 and 56", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 49, 
+                "sink": 56, 
+                "label": "Interference Constraint between 49 and 56", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 57, 
+                "sink": 58, 
+                "label": "(sample_rock rover1 rover1store waypoint6)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 8.0, 
+                    "sd": 1.1241447172012844
+                }
+            }, 
+            {
+                "source": 56, 
+                "sink": 57, 
+                "label": "Ordering Constraint between 56 and 57", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 54, 
+                "sink": 57, 
+                "label": "Ordering Constraint between 54 and 57", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 59, 
+                "sink": 60, 
+                "label": "(navigate rover1 waypoint6 waypoint0)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 5.0, 
+                    "sd": 0.40841189538571215
+                }
+            }, 
+            {
+                "source": 39, 
+                "sink": 59, 
+                "label": "Interference Constraint between 39 and 59", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 57, 
+                "sink": 59, 
+                "label": "Interference Constraint between 57 and 59", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 61, 
+                "sink": 62, 
+                "label": "(communicate_rock_data rover1 general waypoint6 waypoint0 waypoint1)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 10.0, 
+                    "sd": 0.8657154315360794
+                }
+            }, 
+            {
+                "source": 39, 
+                "sink": 61, 
+                "label": "Interference Constraint between 39 and 61", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 47, 
+                "sink": 61, 
+                "label": "Interference Constraint between 47 and 61", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 60, 
+                "sink": 61, 
+                "label": "Ordering Constraint between 60 and 61", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 58, 
+                "sink": 61, 
+                "label": "Ordering Constraint between 58 and 61", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 52, 
+                "sink": 61, 
+                "label": "Ordering Constraint between 52 and 61", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 63, 
+                "sink": 64, 
+                "label": "(navigate rover1 waypoint0 waypoint3)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 5.0, 
+                    "sd": 0.40841189538571215
+                }
+            }, 
+            {
+                "source": 49, 
+                "sink": 63, 
+                "label": "Interference Constraint between 49 and 63", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 51, 
+                "sink": 63, 
+                "label": "Interference Constraint between 51 and 63", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 62, 
+                "sink": 63, 
+                "label": "Ordering Constraint between 62 and 63", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 65, 
+                "sink": 66, 
+                "label": "(navigate rover1 waypoint3 waypoint7)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 5.0, 
+                    "sd": 0.40841189538571215
+                }
+            }, 
+            {
+                "source": 13, 
+                "sink": 65, 
+                "label": "Interference Constraint between 13 and 65", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 64, 
+                "sink": 65, 
+                "label": "Ordering Constraint between 64 and 65", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 62, 
+                "sink": 65, 
+                "label": "Ordering Constraint between 62 and 65", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 67, 
+                "sink": 68, 
+                "label": "(drop rover1 rover1store)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 1.0, 
+                    "ub": 1.0
+                }
+            }, 
+            {
+                "source": 15, 
+                "sink": 68, 
+                "label": "Interference Constraint between 15 and 68", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 25, 
+                "sink": 68, 
+                "label": "Interference Constraint between 25 and 68", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 33, 
+                "sink": 68, 
+                "label": "Interference Constraint between 33 and 68", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 49, 
+                "sink": 68, 
+                "label": "Interference Constraint between 49 and 68", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 57, 
+                "sink": 68, 
+                "label": "Interference Constraint between 57 and 68", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 69, 
+                "sink": 70, 
+                "label": "(sample_rock rover1 rover1store waypoint7)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 8.0, 
+                    "sd": 1.1241447172012844
+                }
+            }, 
+            {
+                "source": 68, 
+                "sink": 69, 
+                "label": "Ordering Constraint between 68 and 69", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 66, 
+                "sink": 69, 
+                "label": "Ordering Constraint between 66 and 69", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 71, 
+                "sink": 72, 
+                "label": "(recharge rover1 waypoint7)", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 3.75, 
+                    "ub": 3.75
+                }
+            }, 
+            {
+                "source": 66, 
+                "sink": 71, 
+                "label": "Ordering Constraint between 66 and 71", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 71, 
+                "label": "Ordering Constraint between 0 and 71", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 73, 
+                "sink": 74, 
+                "label": "(communicate_rock_data rover1 general waypoint7 waypoint7 waypoint1)", 
+                "type": "pstc", 
+                "distribution": {
+                    "mean": 10.0, 
+                    "sd": 0.8657154315360794
+                }
+            }, 
+            {
+                "source": 63, 
+                "sink": 73, 
+                "label": "Interference Constraint between 63 and 73", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 70, 
+                "sink": 73, 
+                "label": "Ordering Constraint between 70 and 73", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 66, 
+                "sink": 73, 
+                "label": "Ordering Constraint between 66 and 73", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0.001, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 36, 
+                "label": "Deadline for Timepoint 36", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0, 
+                    "ub": 1000000000.0
+                }
+            }, 
+            {
+                "source": 0, 
+                "sink": 72, 
+                "label": "Deadline for Timepoint 72", 
+                "type": "stc", 
+                "duration_bound": {
+                    "lb": 0, 
+                    "ub": 1000000000.0
+                }
+            }
+        ], 
+        "correlations": [
+            {
+                "constraints": [
+                    {
+                        "source": 3, 
+                        "sink": 4, 
+                        "label": "(sample_soil rover0 rover0store waypoint1)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 10.0, 
+                            "sd": 2.1998216392555623
+                        }
+                    }, 
+                    {
+                        "source": 27, 
+                        "sink": 28, 
+                        "label": "(communicate_soil_data rover0 general waypoint1 waypoint0 waypoint1)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 10.0, 
+                            "sd": 2.0172271810607505
+                        }
+                    }
+                ], 
+                "mean": [
+                    10.0, 
+                    10.0
+                ], 
+                "correlation": [
+                    [
+                        1.0, 
+                        0.9
+                    ], 
+                    [
+                        0.9, 
+                        1.0
+                    ]
+                ]
+            }, 
+            {
+                "constraints": [
+                    {
+                        "source": 5, 
+                        "sink": 6, 
+                        "label": "(sample_soil rover1 rover1store waypoint3)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 10.0, 
+                            "sd": 2.1998216392555623
+                        }
+                    }, 
+                    {
+                        "source": 33, 
+                        "sink": 34, 
+                        "label": "(sample_soil rover1 rover1store waypoint6)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 10.0, 
+                            "sd": 2.1998216392555623
+                        }
+                    }
+                ], 
+                "mean": [
+                    10.0, 
+                    10.0
+                ], 
+                "correlation": [
+                    [
+                        1.0, 
+                        0.9
+                    ], 
+                    [
+                        0.9, 
+                        1.0
+                    ]
+                ]
+            }, 
+            {
+                "constraints": [
+                    {
+                        "source": 43, 
+                        "sink": 44, 
+                        "label": "(communicate_rock_data rover1 general waypoint4 waypoint0 waypoint1)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 10.0, 
+                            "sd": 0.8657154315360794
+                        }
+                    }, 
+                    {
+                        "source": 45, 
+                        "sink": 46, 
+                        "label": "(communicate_soil_data rover1 general waypoint6 waypoint0 waypoint1)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 10.0, 
+                            "sd": 2.0172271810607505
+                        }
+                    }
+                ], 
+                "mean": [
+                    10.0, 
+                    10.0
+                ], 
+                "correlation": [
+                    [
+                        1.0, 
+                        0.9
+                    ], 
+                    [
+                        0.9, 
+                        1.0
+                    ]
+                ]
+            }, 
+            {
+                "constraints": [
+                    {
+                        "source": 47, 
+                        "sink": 48, 
+                        "label": "(communicate_soil_data rover1 general waypoint3 waypoint0 waypoint1)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 10.0, 
+                            "sd": 2.0172271810607505
+                        }
+                    }, 
+                    {
+                        "source": 51, 
+                        "sink": 52, 
+                        "label": "(communicate_rock_data rover1 general waypoint0 waypoint0 waypoint1)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 10.0, 
+                            "sd": 0.8657154315360794
+                        }
+                    }
+                ], 
+                "mean": [
+                    10.0, 
+                    10.0
+                ], 
+                "correlation": [
+                    [
+                        1.0, 
+                        0.9
+                    ], 
+                    [
+                        0.9, 
+                        1.0
+                    ]
+                ]
+            }, 
+            {
+                "constraints": [
+                    {
+                        "source": 61, 
+                        "sink": 62, 
+                        "label": "(communicate_rock_data rover1 general waypoint6 waypoint0 waypoint1)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 10.0, 
+                            "sd": 0.8657154315360794
+                        }
+                    }, 
+                    {
+                        "source": 73, 
+                        "sink": 74, 
+                        "label": "(communicate_rock_data rover1 general waypoint7 waypoint7 waypoint1)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 10.0, 
+                            "sd": 0.8657154315360794
+                        }
+                    }
+                ], 
+                "mean": [
+                    10.0, 
+                    10.0
+                ], 
+                "correlation": [
+                    [
+                        1.0, 
+                        0.9
+                    ], 
+                    [
+                        0.9, 
+                        1.0
+                    ]
+                ]
+            }, 
+            {
+                "constraints": [
+                    {
+                        "source": 25, 
+                        "sink": 26, 
+                        "label": "(sample_rock rover1 rover1store waypoint4)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 8.0, 
+                            "sd": 1.1241447172012844
+                        }
+                    }, 
+                    {
+                        "source": 49, 
+                        "sink": 50, 
+                        "label": "(sample_rock rover1 rover1store waypoint0)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 8.0, 
+                            "sd": 1.1241447172012844
+                        }
+                    }
+                ], 
+                "mean": [
+                    8.0, 
+                    8.0
+                ], 
+                "correlation": [
+                    [
+                        1.0, 
+                        0.9
+                    ], 
+                    [
+                        0.9, 
+                        1.0
+                    ]
+                ]
+            }, 
+            {
+                "constraints": [
+                    {
+                        "source": 57, 
+                        "sink": 58, 
+                        "label": "(sample_rock rover1 rover1store waypoint6)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 8.0, 
+                            "sd": 1.1241447172012844
+                        }
+                    }, 
+                    {
+                        "source": 69, 
+                        "sink": 70, 
+                        "label": "(sample_rock rover1 rover1store waypoint7)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 8.0, 
+                            "sd": 1.1241447172012844
+                        }
+                    }
+                ], 
+                "mean": [
+                    8.0, 
+                    8.0
+                ], 
+                "correlation": [
+                    [
+                        1.0, 
+                        0.9
+                    ], 
+                    [
+                        0.9, 
+                        1.0
+                    ]
+                ]
+            }, 
+            {
+                "constraints": [
+                    {
+                        "source": 13, 
+                        "sink": 14, 
+                        "label": "(navigate rover1 waypoint3 waypoint0)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 5.0, 
+                            "sd": 0.40841189538571215
+                        }
+                    }, 
+                    {
+                        "source": 17, 
+                        "sink": 18, 
+                        "label": "(navigate rover1 waypoint0 waypoint6)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 5.0, 
+                            "sd": 0.40841189538571215
+                        }
+                    }
+                ], 
+                "mean": [
+                    5.0, 
+                    5.0
+                ], 
+                "correlation": [
+                    [
+                        1.0, 
+                        0.9
+                    ], 
+                    [
+                        0.9, 
+                        1.0
+                    ]
+                ]
+            }, 
+            {
+                "constraints": [
+                    {
+                        "source": 23, 
+                        "sink": 24, 
+                        "label": "(navigate rover1 waypoint6 waypoint4)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 5.0, 
+                            "sd": 0.40841189538571215
+                        }
+                    }, 
+                    {
+                        "source": 29, 
+                        "sink": 30, 
+                        "label": "(navigate rover1 waypoint4 waypoint6)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 5.0, 
+                            "sd": 0.40841189538571215
+                        }
+                    }
+                ], 
+                "mean": [
+                    5.0, 
+                    5.0
+                ], 
+                "correlation": [
+                    [
+                        1.0, 
+                        0.9
+                    ], 
+                    [
+                        0.9, 
+                        1.0
+                    ]
+                ]
+            }, 
+            {
+                "constraints": [
+                    {
+                        "source": 39, 
+                        "sink": 40, 
+                        "label": "(navigate rover1 waypoint6 waypoint0)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 5.0, 
+                            "sd": 0.40841189538571215
+                        }
+                    }, 
+                    {
+                        "source": 53, 
+                        "sink": 54, 
+                        "label": "(navigate rover1 waypoint0 waypoint6)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 5.0, 
+                            "sd": 0.40841189538571215
+                        }
+                    }
+                ], 
+                "mean": [
+                    5.0, 
+                    5.0
+                ], 
+                "correlation": [
+                    [
+                        1.0, 
+                        0.9
+                    ], 
+                    [
+                        0.9, 
+                        1.0
+                    ]
+                ]
+            }, 
+            {
+                "constraints": [
+                    {
+                        "source": 59, 
+                        "sink": 60, 
+                        "label": "(navigate rover1 waypoint6 waypoint0)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 5.0, 
+                            "sd": 0.40841189538571215
+                        }
+                    }, 
+                    {
+                        "source": 63, 
+                        "sink": 64, 
+                        "label": "(navigate rover1 waypoint0 waypoint3)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 5.0, 
+                            "sd": 0.40841189538571215
+                        }
+                    }
+                ], 
+                "mean": [
+                    5.0, 
+                    5.0
+                ], 
+                "correlation": [
+                    [
+                        1.0, 
+                        0.9
+                    ], 
+                    [
+                        0.9, 
+                        1.0
+                    ]
+                ]
+            }, 
+            {
+                "constraints": [
+                    {
+                        "source": 19, 
+                        "sink": 20, 
+                        "label": "(communicate_image_data rover2 general objective1 high_res waypoint0 waypoint1)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 15.0, 
+                            "sd": 2.2144126356739986
+                        }
+                    }, 
+                    {
+                        "source": 21, 
+                        "sink": 22, 
+                        "label": "(sample_soil rover2 rover2store waypoint0)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 10.0, 
+                            "sd": 2.1998216392555623
+                        }
+                    }
+                ], 
+                "mean": [
+                    15.0, 
+                    10.0
+                ], 
+                "correlation": [
+                    [
+                        1.0, 
+                        0.9
+                    ], 
+                    [
+                        0.9, 
+                        1.0
+                    ]
+                ]
+            }, 
+            {
+                "constraints": [
+                    {
+                        "source": 37, 
+                        "sink": 38, 
+                        "label": "(communicate_soil_data rover2 general waypoint0 waypoint0 waypoint1)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 10.0, 
+                            "sd": 2.0172271810607505
+                        }
+                    }, 
+                    {
+                        "source": 9, 
+                        "sink": 10, 
+                        "label": "(take_image rover2 waypoint0 objective1 camera1 high_res)", 
+                        "type": "pstc", 
+                        "distribution": {
+                            "mean": 7.0, 
+                            "sd": 0.9964256323945837
+                        }
+                    }
+                ], 
+                "mean": [
+                    10.0, 
+                    7.0
+                ], 
+                "correlation": [
+                    [
+                        1.0, 
+                        0.9
+                    ], 
+                    [
+                        0.9, 
+                        1.0
+                    ]
+                ]
+            }
+        ]
+    }
+}
